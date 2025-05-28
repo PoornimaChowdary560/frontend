@@ -1,7 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../styles/download.css";
-const baseURL = "https://web-production-f90ec.up.railway.app/"; // Replace with actual backend URL
+const baseURL = process.env.REACT_APP_BASE_URL;
+
 const DownloadReportPage = () => {
     const { analysisId } = useParams();
 
