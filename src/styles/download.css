@@ -1,0 +1,58 @@
+/* styles/download.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.download-report-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Heading */
+.download-report-container h2 {
+    font-size: 26px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Description */
+.download-report-container p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Download Button */
+.download-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.download-btn:hover {
+    background: linear-gradient(to bottom, #657eac, #6e9cec);
+    transform: translateY(-2px);
+}
+
+.download-btn:active {
+    background: #003f80;
+    transform: scale(0.98);
+}

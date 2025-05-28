@@ -1,0 +1,27 @@
+.report-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.fix-bias-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fix-bias-btn:hover {
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+}

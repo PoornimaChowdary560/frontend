@@ -1,0 +1,71 @@
+/* 🌆 Background with Gradient */
+.analysis-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* 🏆 Glassmorphism Card */
+  .analysis-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 450px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #1e3c72;
+  }
+  
+  /* 🔄 Loading Spinner */
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-top: 5px solid #f1c40f;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* 📊 Bias Score & Accuracy */
+  .bias-score, .accuracy {
+    font-size: 20px;
+    color: #f1c40f;
+    margin-bottom: 10px;
+  }
+  
+  /* ❌ Error message */
+  .error-message {
+    background: rgba(255, 0, 0, 0.2);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* 🎯 View Report Button */
+  .view-report-btn {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease-in-out;
+  }
+  
+  .view-report-btn:hover {
+    background: linear-gradient(to bottom, #657eac, #6e9cec);
+  }
+  

@@ -1,0 +1,73 @@
+/* General Container */
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Upload Card */
+.upload-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+/* Title */
+.upload-card h2 {
+  color: #1e3c72;
+  margin-bottom: 10px;
+}
+
+/* File Input */
+.file-input {
+  margin: 15px 0;
+}
+
+.file-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* File Name Display */
+.file-name {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Upload Button */
+.upload-btn {
+  background: #1e3c72;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.upload-btn:hover {
+  background: #2a5298;
+}
+
+.upload-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Loading Text */
+.loading-text {
+  color: #ff9800;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
