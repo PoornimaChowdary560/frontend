@@ -7,8 +7,14 @@ const DownloadReportPage = () => {
     const { analysisId } = useParams();
 
     const handleDownload = () => {
-        window.open(`${baseURL}/api/download-report/${analysisId}/`, "_blank");
-    };
+  const link = document.createElement("a");
+  link.href = `${baseURL}/api/download-report/${analysisId}/`;
+  link.download = `bias_report_${analysisId}.pdf`; // Optional: filename hint
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 
     return (
         <div className="download-report-container">
